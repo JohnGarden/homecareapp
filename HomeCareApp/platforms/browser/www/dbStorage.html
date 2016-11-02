@@ -73,7 +73,22 @@
                 $.mobile.changePage( "#page2", { reverse: false, transition: "slide" } );
                 return false;
             }
+
+            function testpage2(){
+                db.transaction(sucessQueryDB, errorCB);
+                $.mobile.changePage("#page3", {reverse: false, transition: "slide"});
+                return false;
+            }
+
+            function gotolist(){
+                
+                $.mobile.changePage("#page2", {reverse: false, transition: "slide"});
+                $('#resultList').listview('refresh');
+
+                return false;
+            }
  
+
  
         </script>
          
@@ -95,6 +110,8 @@
                                  
                     <input type="submit" value="submit">
                 </form>
+
+                <button onclick="return gotolist()">View List</button>
  
  
             </div>
@@ -113,9 +130,20 @@
                  
                 <ul data-role="listview" id="resultList">
                 </ul>
-                     
+                
+                <button onclick="return testpage2()"> go to page3</button>   
             </div>
              
+        </div>
+
+        <div data-role="page" id="page3">
+            <div data-role="header" data-add-back-btn="true">
+                <h1>Page 3</h1>    
+            </div>
+            <div data-role="content">
+                suga
+            </div>
+            
         </div>
          
         

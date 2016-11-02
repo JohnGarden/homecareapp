@@ -1,0 +1,796 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/garden/ontologies/homecar#"
+     xml:base="http://www.semanticweb.org/garden/ontologies/homecar"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/garden/ontologies/homecar"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/garden/ontologies/homecar#OWLAnnotationProperty_570251f2_683f_4a17_8e25_206deb8bff6c -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/garden/ontologies/homecar#OWLAnnotationProperty_570251f2_683f_4a17_8e25_206deb8bff6c">
+        <rdfs:label xml:lang="en">Image Path</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/garden/ontologies/homecar#OWLAnnotationProperty_604aaa9b_89b0_4b38_bf70_841137f8a3c2 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/garden/ontologies/homecar#OWLAnnotationProperty_604aaa9b_89b0_4b38_bf70_841137f8a3c2">
+        <rdfs:label xml:lang="en">Warning</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/garden/ontologies/homecar#OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/garden/ontologies/homecar#OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a">
+        <rdfs:label xml:lang="en">Instruction</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#instruction -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#instruction"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_0073f988_8091_4856_9628_ab816e4d3481 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_0073f988_8091_4856_9628_ab816e4d3481">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_1ad306b3_7fc1_45f7_929e_f6dc7f722258"/>
+        <rdfs:label xml:lang="en">Hypertension</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_05cc1cf1_9458_40be_8d3b_cfbafe56da9c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_05cc1cf1_9458_40be_8d3b_cfbafe56da9c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_37758a6b_e134_452c_9dd2_f398f891f5da"/>
+        <rdfs:label xml:lang="en">Fall</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_1980b942_65d1_4f23_ab30_1c2500d1568b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_1980b942_65d1_4f23_ab30_1c2500d1568b">
+        <rdfs:label xml:lang="en">Protocol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_19f97f27_d500_4c94_95e9_ed57c06fcc5c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_19f97f27_d500_4c94_95e9_ed57c06fcc5c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_6cffa196_5e4a_4d17_bc7f_e188a7c6ef44"/>
+        <rdfs:label xml:lang="en">Feeding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_1a3d439d_83c4_43a7_aef1_d986e785b0e2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_1a3d439d_83c4_43a7_aef1_d986e785b0e2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_bd80c4a2_6345_4b97_ace1_ab1661226d9d"/>
+        <OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caso ele não possa sair do leito, procure
+mudá-lo de posição várias vezes durante o
+dia (deitar de lado ou de costas);
+
+Se quiser melhorar o apoio, coloque nele um cinto
+bem largo para poder segurá-lo com mais frmeza;
+
+Os seus joelhos devem estar um pouco ﬂexionados e suas
+mãos devem segurar a cintura do paciente;
+
+Apóie os braços dele sobre os ombros;
+
+Para ter uma boa base de apoio, mantenha seus pés um pouco afastados: um
+apontando para a cama e o outro para a cadeira de rodas;
+
+
+Quando for transferir o paciente para a poltrona, traga-o para a beirada do leito.
+Não se afaste nesse momento, pois ele poderá ter tonteiras e cair;
+
+Coloque a poltrona ou cadeira de rodas bem próxima à cama, de preferência do
+lado não afetado;</OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a>
+        <rdfs:label xml:lang="en">Bed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_1ad306b3_7fc1_45f7_929e_f6dc7f722258 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_1ad306b3_7fc1_45f7_929e_f6dc7f722258">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_1980b942_65d1_4f23_ab30_1c2500d1568b"/>
+        <rdfs:label xml:lang="en">Expected Reaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_21f9472d_2d04_45f9_8a9a_f87e1d81a890 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_21f9472d_2d04_45f9_8a9a_f87e1d81a890">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_19f97f27_d500_4c94_95e9_ed57c06fcc5c"/>
+        <OWLAnnotationProperty_604aaa9b_89b0_4b38_bf70_841137f8a3c2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATENÇÃO: Alguns quimioterápicos (como a Oxaliplatina) causam reações
+adversas quando há o consumo de alimentos ou bebidas geladas. Sendo assim,
+pergunte a sua equipe de saúde, nutricionista, médico(a) ou enfermeiro(a),
+se você pode consumir gelados.</OWLAnnotationProperty_604aaa9b_89b0_4b38_bf70_841137f8a3c2>
+        <rdfs:comment>xinguuuuuuuuu</rdfs:comment>
+        <rdfs:instruction>sugasugasugasugasugasugasugasugasugasugasugasugasugasugasugasuga
+
+
+sugasugasugasugasugasugasugasugasugasuga
+suga
+sugasugasugasugasuga</rdfs:instruction>
+        <rdfs:label xml:lang="en">Nausea and Vomiting</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_2f658b9b_cddc_4aba_b293_24410129a0f0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_2f658b9b_cddc_4aba_b293_24410129a0f0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_37758a6b_e134_452c_9dd2_f398f891f5da"/>
+        <rdfs:label xml:lang="en">Adverse reaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_2f73c6d1_3f32_45d0_9fc1_a9cfaf2b110f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_2f73c6d1_3f32_45d0_9fc1_a9cfaf2b110f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_19f97f27_d500_4c94_95e9_ed57c06fcc5c"/>
+        <OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A neutropenia e a leucopenia são alterações em que as defesas do organismo estão
+diminuídas, aumentando as chances de aparecimento de infecções, febre, diarreia,
+etc. Por isso, a alimentação deve ser segura, já que muitas bactérias e outros
+micro-organismos podem encontrar nos alimentos lugar ideal para se multiplicarem.
+Abaixo, alguns cuidados que devem ser tomados:
+•	 Quando comprar os alimentos, observe com atenção a qualidade e frescor
+de frutas, verduras, legumes, carnes, peixes e ovos. Verifque se a embalagem
+não está danifcada, pois isso permite a entrada de micro-organismos que
+podem causar doenças. Observe sempre a data de validade antes de comprar e
+consumir qualquer alimento e mantenha-os nas temperaturas recomendadas
+nos rótulos.
+•	 Todas as embalagens comerciais de queijos, leite, iogurte e outros alimentos
+devem ser lavadas com sabão de coco ou neutro antes de irem para a
+geladeira ou freezer.
+•	 Lave também as tampas de enlatados e conservas antes de abri-los.
+•	 Nunca prove alimentos que pareçam estar estragados ou tenham odor
+estranho.
+•	 Beba somente água fltrada ou fervida.
+•	 Lave bem as mãos antes de comer ou preparar os alimentos.
+•	 Não manipule os alimentos quando houver ferimentos nas mãos.
+•	 Mantenha as unhas aparadas e limpas e os cabelos presos para manipular
+os alimentos.
+•	 Ao cozinhar, mantenha as mãos longe da boca, cabelos e nariz e evite usar
+anéis, brincos e pulseiras, pois eles podem levar micro-organismos aos
+alimentos.
+•	 Descongele as carnes deixando-as previamente na geladeira e nunca
+recongele.
+•	 A bancada e os utensílios utilizados no preparo dos alimentos também devem
+ser lavados antes de sua utilização.
+•	 Ovos e carnes devem estar bem cozidos. As carnes não devem ter partes
+rosadas (cruas ou mal passadas) e os ovos devem estar com a gema dura.
+•	 Lave frutas e verduras com água corrente antes de descascar ou cortar.
+•	 Lave as louças com sabão industrializado e troque a esponja a cada 15 dias.</OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a>
+        <rdfs:label xml:lang="en">Low Immunity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_37758a6b_e134_452c_9dd2_f398f891f5da -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_37758a6b_e134_452c_9dd2_f398f891f5da">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_1980b942_65d1_4f23_ab30_1c2500d1568b"/>
+        <rdfs:label xml:lang="en">Intercurrence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_3cc0af0f_11b3_4601_9687_11ed03107bc8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_3cc0af0f_11b3_4601_9687_11ed03107bc8">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_19f97f27_d500_4c94_95e9_ed57c06fcc5c"/>
+        <rdfs:instruction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Umaalimentaçãoinadequadaealgunsmedicamentosparador
+podem causar “prisão de ventre”. Procure seguir algumas
+sugestões para evitar esse problema:
+• Beba bastante líquido, especialmente água.
+Recomenda-se ingerir aproximadamente
+8 copos por dia, pois isso ajuda manter a
+consistência apropriada das fezes.
+• Coma alimentos ricos em fbras, como:
+-	 vegetais folhosos: agrião, alface, acelga,
+brócolis, espinafre, couve, bertalha;
+-	 legumes: abóbora, beterraba, abobrinha,
+vagem;13
+-	 frutas: mamão, laranja com bagaço,
+acerola,ameixa,tangerina,caqui,uvacom
+casca, banana d´água e pêra;
+-	 leguminosas:feijão,soja,lentilha,grãode
+bico, milho;
+-	 pão, biscoito e cereais integrais, farelo de
+trigo ou de aveia.
+• Aproveite ao máximo as cascas ou talos dos
+alimentos.
+• Os alimentos que prendem o intestino, como
+maçã, banana prata, goiaba, caju, limão,
+cenouracozida,batatas,aipim,inhame,cará,
+creme de arroz, chá preto, refrigerantes e
+mate,podemseringeridosmoderadamente
+desde que associado a uma ingestão
+adequada de fibras (alimentos citados
+acima).
+• Crie o hábito de ir ao banheiro sempre que
+sentir vontade de evacuar.
+• Dicas de preparações laxativas que você pode
+consumir diariamente:
+Creme laxativo 1:
+-	 3 ameixas secas sem caroço;
+-	 1 laranja com bagaço, sem semente e cortada em cubos;
+-	 1 fatia média de mamão;
+-	 ½ copo de iogurte natural; e
+-	 1 colher de farelo de trigo.
+Preparo:
+Deixe as ameixas de molho em ½ copo de água por algumas horas. Bata
+no liquidifcador as ameixas, a água do molho, a laranja picada, o mamão, o
+iogurte e o farelo de trigo. Adicione gelo e adoce se achar necessário. Beba
+pela manhã em jejum.14
+Creme laxativo 2:
+-	 1 pedaço pequeno de mamão;
+-	 1 colher de sopa de mel; e
+-	 1 colher de sopa de aveia em ﬂocos.
+Preparo:
+Bata no liquidifcador o mamão, o mel e a aveia em ﬂocos. Adoce se achar
+necessário. Deixe na geladeira por alguns minutos. Você pode consumir a
+qualquer hora do dia, inclusive como sobremesa.
+Opções de sucos laxativos:
+- suco laranja não coado + ameixa + mamão.
+- suco de uva + ameixa + pêra.
+- suco de melancia + maçã com casca + melão.
+- suco de abacaxi + cenoura.
+- suco de mamão + ameixa + água de coco.
+- suco de maçã com casca + manga + cenoura + pêra.
+- suco de cenoura + kiwi + água de coco.
+- suco de kiwi + maçã.
+Preparo:
+Bata no liquidificador os ingredientes de cada suco e adoce se achar
+necessário. Depois está pronto para beber.</rdfs:instruction>
+        <rdfs:label xml:lang="en">Constipation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_43e1b1fb_fba1_493a_ba8a_fcab6adb438d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_43e1b1fb_fba1_493a_ba8a_fcab6adb438d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_1ad306b3_7fc1_45f7_929e_f6dc7f722258"/>
+        <rdfs:label xml:lang="en">Hypotension</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_483e1eae_946e_4423_9533_33d5ec140221 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_483e1eae_946e_4423_9533_33d5ec140221">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_1ad306b3_7fc1_45f7_929e_f6dc7f722258"/>
+        <rdfs:label xml:lang="en">Fever</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_6ca35ab3_2192_4023_8bb5_8958d76f6860 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_6ca35ab3_2192_4023_8bb5_8958d76f6860">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_19f97f27_d500_4c94_95e9_ed57c06fcc5c"/>
+        <OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escolha alimentos com boa aparência e odor agradável.
+• Chupe balas de menta ou de hortelã, se você for diabético escolha
+as versões diet.
+•	 Para diminuir a sensação de sabor doce nas preparações
+salgadas, adicione gotas de limão e pitada de sal.
+•	 Se estiver com a sensação de gosto metálico na boca,
+evite consumir carne vermelha.
+• Consumaalimentosbemtemperados,dandoênfaseao
+aroma e à textura. Esses temperos devem ser naturais
+(exemplos:hortelã,manjericão,limão,salsa,cebolinha,
+coentro, cebola, alho, orégano).
+• Alimentos ricos em zinco e cobre ajudam na
+recuperação do paladar, como milho, feijão, cereais
+de trigo, aveia, ovos, carne assada, ervilhas, pães
+integrais, vegetais folhosos escuros</OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a>
+        <rdfs:label xml:lang="en">Taste and Smell Disturbance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_6cffa196_5e4a_4d17_bc7f_e188a7c6ef44 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_6cffa196_5e4a_4d17_bc7f_e188a7c6ef44">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_1980b942_65d1_4f23_ab30_1c2500d1568b"/>
+        <rdfs:label xml:lang="en">Care</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_6d1e284b_0421_46f2_9179_d96fa6c43e83 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_6d1e284b_0421_46f2_9179_d96fa6c43e83">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_19f97f27_d500_4c94_95e9_ed57c06fcc5c"/>
+        <OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Se você está sentindo a boca seca, siga as orientações abaixo:
+• aumente a ingestão de líquidos;
+• mastigue bem lentamente os alimentos;
+• evite comer alimentos secos, duros e crocantes;
+• prepare a comida com caldos ou molhos;
+• consuma frutas cítricas e com alto teor de líquidos. Exemplos: abacaxi, laranja
+e morango;
+• em caso de aftas, evite alimentos muito salgados e ácidos;
+• se não houver aftas, chupe balas, picolés ou gelo, ou mastigue chicletes (de
+preferência os de menta ou cítricos) que podem ajudar a produzir mais saliva;
+•	 ingira água com gotas ou rodelas de limão.</OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a>
+        <rdfs:label xml:lang="en">Dry Mouth</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_6d67d5dc_71fb_4e47_bd6f_32185973eec1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_6d67d5dc_71fb_4e47_bd6f_32185973eec1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_19f97f27_d500_4c94_95e9_ed57c06fcc5c"/>
+        <OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Se você não consegue comer porque não sente fome, lembre-se de que
+a alimentação é parte importante do seu tratamento e pode ajudá-lo a se
+sentir mais disposto.
+As seguintes sugestões podem tornar mais prazeroso o momento das refeições,
+para que você tenha vontade de comer:
+•	 faça pequenas refeições com intervalos de tempo menores entre elas.
+Tente comer de 2 em 2 horas. Não se preocupe em comer tudo, mas faça
+um esforço para consumir aquilo que mais te agradar;
+•	 tente não pular as refeições, mesmo que não tenha vontade de comer.
+Nessas situações, tente escolher algum alimento de fácil mastigação, como
+mingau, sopas e vitaminas;
+•	 prepare pratos coloridos e variados e inclua novos alimentos em seu
+cardápio;
+•	 converse com seus familiares ou cuidadores sobre
+seus desejos alimentares antes do preparo de
+suas refeições para ajudá-los a acertar seus
+gostos em relação ao uso de temperos, à
+quantidade e temperatura das refeições;
+•	 sugestões para enriquecer algumas
+preparações:
+- adicione azeite, óleo vegetal, creme de
+leite ou gema de ovo em sopas, purês
+e mingaus;
+- mingaus e vitaminas de frutas também
+são calóricos. Misture farinhas variadas
+para não cansar do sabor (aveia, maisena,
+cremogema, fubá, etc.);
+- nas sopas: varie os vegetais e adicione macarrão, carne, frango
+e ovo;
+- no prato (refeição) do almoço e jantar: adicione óleo vegetal
+(1 colher de sopa). Pode ser azeite de oliva, óleo de soja, milho,
+canola ou girassol;8
+- faça sucos compostos de duas frutas ou de uma fruta com um vegetal
+(exemplo: laranja + cenoura, laranja + banana + maçã);
+- nos pães, torradas e biscoitos você pode adicionar queijo, requeijão, geleia
+de fruta ou mel;
+- opções de sobremesa: frutas, doces, frutas em calda ou sorvetes;
+- se você é diabético ou faz dieta controlada em açúcar, só consuma doces
+e açúcares na versão diet</OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a>
+        <rdfs:label xml:lang="en">Lack of Appetite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_73780f7a_2726_43b6_99a6_714e84796aa9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_73780f7a_2726_43b6_99a6_714e84796aa9">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_bd80c4a2_6345_4b97_ace1_ab1661226d9d"/>
+        <OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coloque a poltrona ou cadeira de rodas bem próxima à cama, de preferência do
+lado não afetado;
+Quando for transferir o paciente para a poltrona, traga-o para a beirada do leito.
+Não se afaste nesse momento, pois ele poderá ter tonteiras e cair;
+Para ter uma boa base de apoio, mantenha seus pés um pouco afastados: um
+apontando para a cama e o outro para a cadeira de rodas;
+Apóie os braços dele sobre os ombros;
+Os seus joelhos devem estar um pouco ﬂexionados e suas
+mãos devem segurar a cintura do paciente;
+Se quiser melhorar o apoio, coloque nele um cinto
+bem largo para poder segurá-lo com mais frmeza;
+Caso ele não possa sair do leito, procure
+mudá-lo de posição várias vezes durante o
+dia (deitar de lado ou de costas);</OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a>
+        <rdfs:label xml:lang="en">Wheelchair</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_7cc04344_68f7_412c_8bd4_08ba8a4f4644 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_7cc04344_68f7_412c_8bd4_08ba8a4f4644">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_bd80c4a2_6345_4b97_ace1_ab1661226d9d"/>
+        <OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O enfermo vai precisar freqüentemente de ajuda para ir ao banheiro. Ele deve sentir-se à vontade
+para chamar o cuidador quando
+precisar. Procure lhe dar a maior
+privacidade possível. Se houver
+pessoas no quarto, peça para
+saírem por um instante.
+Em vez de fazer suas necessidades no leito, é preferível
+que o paciente vá ao banheiro
+(sozinho ou acompanhado)
+mesmo que seja com algumas
+difculdades.
+Coloque no banheiro todo o
+material de higiene que ele
+poderá precisar em um lugar
+que seja fácil alcançar.
+Peça orientações à equipe de
+enfermagem sobre como limpar
+o paciente após as evacuações.</OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a>
+        <rdfs:label xml:lang="en">Bathroom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_8345fcdb_2753_4fa5_a05a_1c5024b3fa85 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_8345fcdb_2753_4fa5_a05a_1c5024b3fa85">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_19f97f27_d500_4c94_95e9_ed57c06fcc5c"/>
+        <rdfs:instruction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A diarreia é caracterizada por três ou mais evacuações líquidas por dia, podendo
+levar à desidratação pela perda de líquidos em seu organismo. Ela pode ser causada
+pela quimioterapia, radioterapia, infecção ou sensibilidade a certos alimentos. Veja
+algumas orientações para ajudar no controle da diarreia:
+• Beba bastante líquido durante o dia (aproximadamente 12 copos por dia).
+Isso é importante para repor a perda de líquidos que acontece durante a
+diarreia. Os líquidos que podem ser consumidos são: água, água de coco, suco
+de fruta natural ou de polpa.
+Dê preferência aos alimentos que controlam ou evitam a diarreia, tais como:
+-	frutas: banana prata ou banana maçã, caju, maçã sem casca, pêra sem casca,
+limão, goiaba sem cascas e sem sementes, pêssego sem casca, maracujá,
+melão, melancia;
+-	sucos: goiaba, caju e limonada. Coados, de preferência;
+-	legumes cozidos: batata, beterraba, cenoura, chuchu,
+aipim, inhame, cará, abobrinha sem casca;
+-	cereais: arroz, macarrão, fécula de batata, farinha
+de arroz, creme de arroz, maisena, mucilon de
+arroz, pão (de preferência torrado), biscoito cream
+cracker, biscoito maisena, torrada e farinha de
+tapioca (goma);
+-	chás: preto, mate, erva doce, erva cidreira, canela,
+camomila, hortelã, maçã;
+-	ovo cozido;
+-	carnes magras (frango sem pele, peixe sem couro ou carne
+vermelha sem gordura, cozidos, grelhados ou assados).
+• Consumir preferencialmente leite e derivados com
+baixo teor de gordura (versões light, desnatados ou semidesnatados).
+•	 Em caso de diarreia persistente (7 ou mais dias), pode
+ocorrer intolerância ao leite de vaca. Se isto ocorrer,
+substitua o leite de vaca por leite de soja ou leite isento
+em lactose. Essa intolerância pode não acontecer para
+os derivados do leite. Ou seja, você poderá continuar
+consumindo iogurtes e queijos brancos, de acordo com
+a sua tolerância. Experimente e observe! Você pode
+consumir também sucos de fruta, chás ou água de coco.
+• Evite frituras e alimentos gordurosos, inclusive amendoim,
+nozes, castanhas, amêndoas e coco.
+• Evite alimentos enlatados, condimentos fortes, apimentados
+ou irritantes (como o café).
+• Evite alimentos laxativos (que soltam o intestino), como:
+- verduras cruas (vegetais folhosos);
+- frutas: mamão, laranja, ameixa;12
+- farelos integrais: aveia, trigo, linhaça;
+- alimentos açucarados, como doces concentrados
+(goiabada, marmelada, geleia de mocotó, marrom
+glacê, bananada) e chocolates.
+Lembre-se de lavar sempre as mãos, principalmente antes das
+refeições,paraevitarcontaminação,quepodelevarainfecções
+intestinais.
+Osorocaseiropodeserusadoparaevitardesidratação,podendo
+seringeridoàvontadeenquantoadiarreiaeasedepersistirem.
+Prepare com:
+- 1 copo de água;
+- 1 colher (de sopa) rasa de açúcar; e
+- 1 colher (de café) rasa de sal.
+Água de coco e isotônicos também ajudam a recuperar os
+minerais perdidos na diarreia!
+Se a diarreia for muito persistente e intensa (mais de
+6 evacuações por dia) procure atendimento médico!</rdfs:instruction>
+        <rdfs:label xml:lang="en">Diarrhea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_89fbf45d_53ff_4aba_9ee5_1204893d4edb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_89fbf45d_53ff_4aba_9ee5_1204893d4edb">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_6cffa196_5e4a_4d17_bc7f_e188a7c6ef44"/>
+        <OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A organização dos
+remédios (com suas
+doses e horários) deve ser
+feita com muita atenção.
+Esclareça suas dúvidas com
+os médicos antes de oferecer
+os remédios;
+Não ofereça comprimidos, cápsulas ou outros medicamentos
+que devem ser engolidos quando
+o paciente estiver deitado. Mantenha a cabeceira bem elevada
+para isso. Se não for possível
+conseguir uma cama adaptada, use
+travesseiros ou almofadas grandes;
+Se não for possível elevar a cabeceira, vire-o de lado;
+Se houver difculdade de engolir os
+comprimidos, triture-os e dissolva
+o pó em uma pequena quantidade
+de água. Não esqueça de verifcar
+sempre a data de validade
+dos medicamentos.</OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a>
+        <rdfs:label xml:lang="en">Medication</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_913008b2_9422_4549_863c_991990b3bbf6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_913008b2_9422_4549_863c_991990b3bbf6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_a7b42e94_8fdd_4a42_819d_d12c9fafa0b4"/>
+        <OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Embora as mãos pareçam limpas, existem
+milhões de bactérias e micróbios que podem
+se esconder embaixo das unhas, mesmo depois de lavar as mãos com bastante água.
+A forma descrita abaixo é a mais efciente
+para eliminar grande parte dos germes. Se
+não for possível fazer exatamente deste
+jeito em todas as ocasiões, tente seguir
+essas instruções na hora de preparar as
+refeições e fazer curativos.
+
+Como lavar as mãos
+Pegue um sabonete ou o próprio
+sabão de lavar roupa e esfregue
+as mãos por um minuto mais ou
+menos; enxágüe-as, tirando todo
+o sabão desta primeira lavagem;
+Ensaboe-as novamente e, desta vez,
+concentre-se nos dedos e unhas;
+Procure lavar dedo por dedo de
+todos os lados;
+Com uma espátula de unhas
+(igual a que se usa para tirar o excesso de esmalte), limpe embaixo
+das mesmas;
+Com as mãos ainda cheias
+de sabão, lave a parte
+da torneira que você vai
+tocar para fechá-la;
+Enxágüe as mãos e a torneira;
+Após fechar a torneira, seque suas mãos com uma toalha
+bem limpa.</OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a>
+        <rdfs:label xml:lang="en">Hand</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_9c9b7783_96ab_4836_bbdf_8d7208c3bea4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_9c9b7783_96ab_4836_bbdf_8d7208c3bea4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_a7b42e94_8fdd_4a42_819d_d12c9fafa0b4"/>
+        <OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deixe que o paciente escolha a melhor
+hora para seu banho;
+
+Se ele puder fazê-lo sozinho, organize
+todo o material necessário e coloque
+próximo dele;
+
+Não o deixe completamente só, pois ele
+pode precisar de sua ajuda se algo
+errado acontecer;
+
+Verifque a temperatura da
+água. O paciente pode não
+perceber a temperatura, se
+alguma parte do corpo dele
+estiver menos sensível;
+
+Aproveite para, depois do
+banho, massagear a pele dele
+com um creme hidratante;</OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a>
+        <rdfs:label xml:lang="en">Bath</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_9ca8aafe_3117_425f_b6a7_21d319b79cdc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_9ca8aafe_3117_425f_b6a7_21d319b79cdc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_a7b42e94_8fdd_4a42_819d_d12c9fafa0b4"/>
+        <OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A higiene bucal deve ser feita pela
+manhã, noite e após cada refeição;
+Procure uma escova de dentes bem
+macia, que se adapte melhor às necessidades do paciente;
+Alterações na saliva (boca seca)</OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a>
+        <rdfs:label xml:lang="en">Mouth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_a7b42e94_8fdd_4a42_819d_d12c9fafa0b4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_a7b42e94_8fdd_4a42_819d_d12c9fafa0b4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_6cffa196_5e4a_4d17_bc7f_e188a7c6ef44"/>
+        <rdfs:label xml:lang="en">Hygiene</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_b7ce2d94_d95c_432c_86fe_8f30bc83bcbc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_b7ce2d94_d95c_432c_86fe_8f30bc83bcbc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_19f97f27_d500_4c94_95e9_ed57c06fcc5c"/>
+        <OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Todos os vegetais (frutas, verduras e legumes) que forem
+consumidos crus devem passar por esse processo de
+higienização, que deve ser feito antes de descascar e
+cortar o alimento.
+Primeiro, você deve retirar folhas ou unidades
+deterioradas.Depois,lavaremáguacorrenteasfrutas,
+legumes e verduras (uma a uma); colocar de molho
+por 10 minutos (orientação da Agência Nacional de
+VigilânciaSanitária-Anvisa)emumasoluçãocontendo
+uma colher de sopa rasa de hipoclorito de sódio (água
+sanitária de 2 a 2,5%) para cada litro de água potável. Em
+seguida, enxague em água fltrada corrente. Nunca use cloro puro!
+Soluçõesdehipocloritodesódioa1%ouprodutosàbasedecloroorgânico,específcos
+para lavagem de vegetais, também podem ser utilizados.</OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a>
+        <rdfs:label xml:lang="en">Sanitizing Vegetables</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_bd80c4a2_6345_4b97_ace1_ab1661226d9d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_bd80c4a2_6345_4b97_ace1_ab1661226d9d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_6cffa196_5e4a_4d17_bc7f_e188a7c6ef44"/>
+        <rdfs:label xml:lang="en">Transport</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_cafc7a02_f265_4da1_a70b_fe5f2931c9b6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_cafc7a02_f265_4da1_a70b_fe5f2931c9b6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_19f97f27_d500_4c94_95e9_ed57c06fcc5c"/>
+        <OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pode acontecer, principalmente se o câncer for localizado na boca e garganta. A
+radioterapia e os medicamentos podem causar dores devido ao surgimento de aftas.
+Alguns cuidados especiais poderão facilitar o ato de comer:
+• evite alimentos ácidos, picantes, muito condimentados ou salgados;
+• evite alimentos duros e de difícil mastigação;
+• a comida deve ser preparada na consistência que for melhor tolerada, e que
+ofereça menor difculdade para mastigar ou engolir (alimentos bem cozidos,
+suﬂês, purês, etc.);
+• em casos graves, prefra alimentos líquidos, liquidifcados, e em temperatura
+ambiente (nem muito frio e nem muito quente);
+• pequenos goles de água ou suco durante as refeições também podem ajudar
+a engolir.</OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a>
+        <rdfs:label xml:lang="en">Sore Throat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_d615065e_6887_4e88_9a34_c0e9e6e5e6ac -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_d615065e_6887_4e88_9a34_c0e9e6e5e6ac">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_a7b42e94_8fdd_4a42_819d_d12c9fafa0b4"/>
+        <OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Observe se há lugares onde a
+pele parece avermelhada (ombros, nádegas, calcanhar etc.);
+Caso observe essas regiões avermelhadas, talvez seja necessário
+providenciar um colchão do tipo
+“caixa de ovo”. Coxins bem macios
+ou protetores de espuma também
+podem ser úteis (peça orientações e
+sugestões à equipe de enfermagem)</OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a>
+        <rdfs:label xml:lang="en">Skin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_dca42a9e_abcb_455f_b310_0a7505107b92 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_dca42a9e_abcb_455f_b310_0a7505107b92">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_1ad306b3_7fc1_45f7_929e_f6dc7f722258"/>
+        <OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a rdf:datatype="http://www.w3.org/2001/XMLSchema#string">É uma ferida bastante dolorosa
+causada pela pressão ou pelo atrito
+prolongado nas regiões da pele em
+que os ossos são mais salientes. Para
+preveni-las, é necessária a mobilização
+e massageamento constante para ativar a circulação dos pacientes acamados
+por longos períodos.</OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a>
+        <rdfs:label xml:lang="en">Pressure Ulcer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_dde6a781_b962_4b30_a1ae_2b920e96b2b3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_dde6a781_b962_4b30_a1ae_2b920e96b2b3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_37758a6b_e134_452c_9dd2_f398f891f5da"/>
+        <rdfs:label xml:lang="en">Unexpected Symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_f47107af_910f_4eed_9f10_dd1438be0339 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_f47107af_910f_4eed_9f10_dd1438be0339">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_19f97f27_d500_4c94_95e9_ed57c06fcc5c"/>
+        <OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Para evitar que você apresente desconforto com o excesso de gases, sugerimos que
+você tome alguns cuidados:
+• Mastigue lentamente os alimentos com a boca fechada e evite falar durante
+as refeições.
+• Casoprefraacrescentaralhoecebolanopreparodasrefeições,use-ossempre
+refogados e com moderação.
+• Evite os alimentos que fermentam e formam maiores quantidades de gases,
+tais como: condimentos picantes, batata-doce, agrião, berinjela, couve-ﬂor,
+couve-manteiga,repolho,mostarda,soja,caroçodefeijão,ervilhaseca,aveia,
+ovos, vísceras (rim, coração, fígado, miolo).
+• Evite refrigerantes e bebidas gasosas.</OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a>
+        <rdfs:label xml:lang="en">Flatulence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_fa07e01f_d216_4af5_96db_26605e2ca1ff -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_fa07e01f_d216_4af5_96db_26605e2ca1ff">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_1ad306b3_7fc1_45f7_929e_f6dc7f722258"/>
+        <rdfs:label xml:lang="en">Weakness</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_1ad306b3_7fc1_45f7_929e_f6dc7f722258"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_37758a6b_e134_452c_9dd2_f398f891f5da"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_6cffa196_5e4a_4d17_bc7f_e188a7c6ef44"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_dde6a781_b962_4b30_a1ae_2b920e96b2b3"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+

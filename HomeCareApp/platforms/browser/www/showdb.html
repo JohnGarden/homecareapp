@@ -1,101 +1,50 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <meta name="format-detection" content="telephone=no" />
-    <meta name="msapplication-tap-highlight" content="no" />
-    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
-    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline';img-src 'self' data: ; media-src *" />
-
-    <!--link rel="stylesheet" type="text/css" href="css/index.css" /-->
-    <link rel="stylesheet" href="jquery.mobile-1.4.5.min.css" />
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery.mobile-1.4.5.min.js"></script>
-
-    <script type="text/javascript">
-        $( document ).ready(function() {
-            renderList();
-        });
-        function renderList() {
-            var db;
-
-            db = window.openDatabase("BrainTumorDB", "1.0", "Brain Tumor Database", 2*1024*1024);
-            db.transaction(createDB, errorCB, successCB);
-
-            function createDB(tx) {
-                //tx.executeSql('DROP TABLE IF EXISTS DEMO');
-                tx.executeSql('CREATE TABLE IF NOT EXISTS PROTOCOL (title, image, description)');
-             
-            }
-
-            function errorCB(err) {
-                alert("Error processing SQL: "+err.code);
-            }
-         
-            function successCB() {
-                // alert("YEAH!!!!");
-            }
-
-            function getData(){
-                var results = [];
-                $.get('db_example.json', function(data) {
-                var dataSize = Object.keys(data).length;
-                for (var i = dataSize - 1; i >= 0; i--) {
-                    results.push(data[i]);             
-                }
-                
-                console.log("first = " +results);
-                // console.log(Object.keys(data).length);
-                // dbHandler.populateDB(JSON.parse(data));
-                return results;
-            });
-
-            }
-
-            var results = [];
-            results = getData();
-
-            
-            console.log(results);
-                        
-            var htmlstring = '';
-             
-            var len = results.length;
-             
-            for (var i=0; i<len; i++){
-                htmlstring += '<li>' + results[i].title + ' image= ' + results[i].image + '</li>';
-            }
-             
-            $('#resultList').html(htmlstring);
-            $('#resultList').listview('refresh');
-             
-        }
-
-    </script>
-
-    <title>Show Database</title>
-</head>
-
-<body>
-    <div>
-        <h1>PhoneGap</h1>
-        <div id="deviceready" class="blink">
-            SUGA BIN
-
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+        <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline';img-src 'self' data: ; media-src *" />
+        <!--link rel="stylesheet" type="text/css" href="css/index.css" /-->
+        <link rel="stylesheet" href="jquery.mobile-1.4.5.min.css" />
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.mobile-1.4.5.min.js"></script>
+        <script type="text/javascript" src="scripts/jquery.tooltip.js"></script>
+        <script type="text/javascript" src="scripts/jOWL.js"></script>
+        <script type="text/javascript" src="scripts/jOWL_UI.js"></script>
+        <script type="text/javascript" src="ontology.js"></script>
+        <title>Show Database</title>
+    </head>
+    <body>
+        <div>
+            <h1>PhoneGap</h1>
+            <div id="deviceready" class="blink">
+                SUGA
+            </div>
+        </div>
+        <div class="loader" style="display: none;">
+            <div>Loading...</div>
+            <img src="images/ajax-loader.gif" alt="Loading Image">
+        </div>
+        <div id="demo">
+            bla
+            <div id="treeview" class="ui-widget-content jowl-tree" style="margin-top:5px;">
+                <h4 class="ui-dialog-titlebar ui-state-default">Treeview</h4>
+                <div class="jowl-content"><ul class="jowl-treeview"><li class="root"><span class="name" typeof="false" title="http://www.w3.org/2002/07/owl#Thing">Thing</span><ul class="tv"><li class="tvilc"><span class="name" typeof="owl:Class" title="Wine">wine</span><ul><li class="tvil focus"><span class="name" typeof="owl:Class" title="WhiteWine">White Wine</span><ul></ul></li></ul></li></ul></li></ul>
+            </div>
         </div>
     </div>
-
-    <div data-role="content"> 
+    <div data-role="content">
         <div id="output">
         </div>
-         
+        
         <ul data-role="listview" id="resultList">
         </ul>
-             
+        
     </div>
     
     <script type="text/javascript" src="js/index.js"></script>
     
 </body>
-
 </html>

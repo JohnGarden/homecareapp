@@ -1,0 +1,122 @@
+<body>
+  <div class="container">
+    <div class="column span-24">
+      <div class="background">
+        <a id="logo" href="http://ontologyonline.org" title="OntologyOnline.org"><img src="http://ontologyonline.org/img/logo102007.jpg" alt="OntologyOnline Logo"></a>
+      </div>
+    </div>
+    <div id="widget" class="column span-12">
+      <div class="loader" style="display: none;">
+        <div>Loading...</div>
+        <img src="http://ontologyonline.org/img/ajax-loader.gif" alt="Loading Image">
+      </div>
+      <div id="demo" style="" class="column span-12">
+        <div class="column span-6 first">
+          <div id="navbar" class="ui-widget-content jowl-navbar">
+            <h4 class="ui-dialog-titlebar ui-state-default">Navigation Bar</h4>
+            <div class="jowl-content">
+              <div><span typeof="owl:Class" title="Wine">wine </span></div>
+              <div class="ui-state-hover" typeof="owl:Class" title="WhiteWine">White Wine</div>
+              <div><span typeof="owl:Class" title="WhiteTableWine">White Table Wine </span><span typeof="owl:Class" title="WhiteNonSweetWine">White Non Sweet Wine </span><span typeof="owl:Class" title="WhiteLoire">White Loire </span><span typeof="owl:Class" title="WhiteBordeaux">White Bordeaux </span><span typeof="owl:Class" title="SemillonOrSauvignonBlanc">Semillon Or Sauvignon Blanc </span><span typeof="owl:Class" title="Sauternes">Sauternes </span><span typeof="owl:Class" title="Riesling">Riesling </span><span typeof="owl:Class" title="PinotBlanc">Pinot Blanc </span><span typeof="owl:Class" title="IceWine">Ice Wine </span><span typeof="owl:Class" title="DryWhiteWine">Dry White Wine </span><span typeof="owl:Class" title="CheninBlanc">Chenin Blanc </span><span typeof="owl:Class" title="Chardonnay">Chardonnay </span></div>
+            </div>
+          </div>
+          <input id="owlauto" type="text" size="40" style="display:block;width:99%;margin:5px 0px;" title="enter a search term" class=""><div class=""><ul class="ui-widget-content jowl_autocomplete_results"></ul></div>
+        </div>
+        <div class="column span-6 last">
+          <div id="individuals" class="ui-widget-content resourcebox" data-jowl="owl:Class">
+            <h4 class="ui-dialog-titlebar ui-state-default">Direct Individuals</h4>
+            <div class="jowl-content">
+              <div class="jowl-template-result ui-state-hover">White Wine</div><div class="propertybox ui-state-hover" data-jowl="rdfs:label" style="display: none;">${rdfs:label}</div>
+              <div class="jowl-template-result" typeof="owl:Thing" title="StGenevieveTexasWhite" style="cursor: pointer;">St Genevieve Texas White</div><div class="propertybox" data-jowl="sparql-dl:DirectType(?x, owl:Class)" style="display: none;">${?x}</div>
+            </div>
+            <div class="jowl_link backlink" style="display: none;">Back</div>
+          </div>
+          
+          <div id="treeview" class="ui-widget-content jowl-tree" style="margin-top:5px;">
+            <h4 class="ui-dialog-titlebar ui-state-default">Treeview</h4>
+            <div class="jowl-content"><ul class="jowl-treeview"><li class="root"><span class="name" typeof="false" title="http://www.w3.org/2002/07/owl#Thing">Thing</span><ul class="tv"><li class="tvilc"><span class="name" typeof="owl:Class" title="Wine">wine</span><ul><li class="tvil focus"><span class="name" typeof="owl:Class" title="WhiteWine">White Wine</span><ul></ul></li></ul></li></ul></li></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="column span-10 last" style="margin-left:10px;">
+      <h3>jOWL</h3>
+      <p>jOWL is a <a title="jQuery" href="http://jquery.com/">jQuery</a> plugin for navigating and visualising <a href="http://ontologyonline.blogspot.com/2007/11/embedding-owl-rdfs-syntax-in-xhtml-with.html">OWL-RDFS</a> documents. The small Demo on this page loads the prototypical <a href="http://www.schemaweb.info/schema/SchemaDetails.aspx?id=62">wine ontology</a> (cfr. <a href="http://www.w3.org/TR/owl-guide/">OWL language guide</a>).</p><p>At the left a simple demo. The view is initialized on the Class Wine. Enter a search term in the input field at the bottom to find other entities (for example 'ice wine'), or use the navigation bar to navigate to parents or children. The settings can be changed to enable/disable advanced reasoning.</p>
+      <p><b>jOWL is tested on</b>: Internet Explorer 7+, Firefox 3, Opera 0.95, Safari (Webkit-Browsers).<br>Current Version: <b>1.0</b></p>
+      <h3 id="download"><a title="jOWL Downloads" href="http://code.google.com/p/jowl-plugin/" style="color:white">Download jOWL</a></h3>
+      <p>What's New? <a href="changelog.html">ChangeLogs and Roadmap</a></p>
+    </div>
+    <hr class="space"><hr>
+    <div class="column span-24">
+      <div class="column span-12 first">
+        <h3>On Site Demo's</h3>
+        Reasoning over Individuals:
+        <ul>
+          <li><a href="http://jowl.ontologyonline.org/SPARQL-DL.html">SPARQL-DL querying</a></li>
+          <li>The <a href="http://jowl.ontologyonline.org/product_demo.html">Semantic Warehouse</a></li>
+          <li><a title="jOWL wine demo" href="http://jowl.ontologyonline.org/wine_demo.html">jOWL wine reasoning demo</a></li>
+          <li><a title="Simile Exhibit Demo" href="http://jowl.ontologyonline.org/jOWLExhibit.html">Using Simile Exhibit for visualisation</a>, and jOWL for data loading and reasoning.</li>
+        </ul>
+        Online Client-side Ontology Browsing:
+        <ul>
+          <li>The <a title="jOWL Ubiquity" href="http://jowl.ontologyonline.org/jOWLBrowser.html">Generic jOWL Ontology Browser</a>, stand-alone, but also used with the Ubiquity command:</li>
+          <li>Loading Ontologies from other domains: the <a href="http://jowl.ontologyonline.org/Ubiquity.html">jOWL Ubiquity command</a> (Firefox) to visualize any external ontology</li>
+          <li>The <a title="Basic Formal Ontology" href="http://jowl.ontologyonline.org/bfo.html">Basic Formal Ontology - BFO</a></li>
+          <li>The <a title="Ontology for Biomedical Investigations" href="http://jowl.ontologyonline.org/obi.html">Ontology for Biomedical Investigations - OBI</a></li>
+        </ul>
+        Advanced Visualisations
+        <ul>
+          <li><a href="http://jowl.ontologyonline.org/HyperBolicTree.html">HyperBolic tree visualization</a>, with the help of the <a href="http://blog.thejit.org/javascript-information-visualization-toolkit-jit/">JIT</a> library.</li>
+          <li><a href="http://jowl.ontologyonline.org/TouchGraph.html">Force Directed Graph Layout</a> (TouchGraph). Experimental &amp; custom-made visualization.</li>
+        </ul>
+        RDfa related
+        <ul>
+          <li>The <a href="http://jowl.ontologyonline.org/documentation.html">jOWL Documentation</a> serves as a demo on it's own, OWL-DL syntax is embedded into the html file by means of RDFa, jOWL extracts an OWL-DL file and visualizes it.</li>
+        </ul>
+      </div>
+      <div class="column span-12 last">
+        <h3>Elsewhere on the web</h3>
+        <ul>
+          <li><a href="http://celtic.umbc.edu/jowl/">using RDFa</a> to explicate metadata.</li>
+          <li>Visualizing the <a href="http://fadyart.com/ontologies/FinanceDemo.html">Finance Ontology</a>.</li>
+          <li>Visualizing the <a href="http://www.dfki.uni-kl.de/~moeller/ontologies/medico-browser/">MEDICO Ontology</a></li>
+          <li><a href="http://users.telenet.be/everbroeck/jOWLBrowser/jOWLBrowser.html">Formalized Wine Ontology</a>: The wine Ontology built underneath BFO.</li>
+        </ul>
+        <h3>Documentation</h3>
+        <p><a href="http://jowl.ontologyonline.org/documentation.html">Documentation</a> on this javascript library, visualised with jOWL.</p>
+      </div>
+    </div>
+    <hr class="space"><hr>
+    <div class="column span-24">
+      <div style="margin-left:50px">
+        <script type="text/javascript"><!--
+        google_ad_client = "pub-1439150688603242";
+        /* jOWL Banner 728x90, created 5/1/09 */
+        google_ad_slot = "4091128231";
+        google_ad_width = 728;
+        google_ad_height = 90;
+        //-->
+        </script>
+        <script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+        </script>
+      </div>
+    </div>
+    <hr class="space"><hr>
+    <div class="column span-24">
+      <p>Under Development, <a href="http://ontologyonline.org/DavidDecraene.html" style="text-decoration:none;">David Decraene</a>.<br>
+    OntologyOnline.org</p>
+  </div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="http://www.google-analytics.com/ga.js" type="text/javascript"></script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-1802585-1");
+pageTracker._setDomainName("ontologyonline.org");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+
+</body>
