@@ -1,0 +1,963 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.2.0), http://vowl.visualdataweb.org",
+  "namespace" : [ ],
+  "header" : {
+    "languages" : [ "IRI-based", "en", "undefined" ],
+    "iri" : "http://www.semanticweb.org/garden/ontologies/homecar"
+  },
+  "metrics" : {
+    "classCount" : 33,
+    "datatypeCount" : 0,
+    "objectPropertyCount" : 0,
+    "datatypePropertyCount" : 0,
+    "propertyCount" : 0,
+    "nodeCount" : 33,
+    "axiomCount" : 126,
+    "individualCount" : 0
+  },
+  "class" : [ {
+    "id" : "class19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "class10",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "id" : "class19",
+    "label" : {
+      "IRI-based" : "OWLClass_1a3d439d_83c4_43a7_aef1_d986e785b0e2",
+      "en" : "Bed"
+    },
+    "iri" : "http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_1a3d439d_83c4_43a7_aef1_d986e785b0e2",
+    "superClasses" : [ "class20" ],
+    "annotations" : {
+      "OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a" : [ {
+        "identifier" : "OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a",
+        "language" : "undefined",
+        "value" : "Caso ele não possa sair do leito, procure\nmudá-lo de posição várias vezes durante o\ndia (deitar de lado ou de costas);\n\nSe quiser melhorar o apoio, coloque nele um cinto\nbem largo para poder segurá-lo com mais frmeza;\n\nOs seus joelhos devem estar um pouco ?exionados e suas\nmãos devem segurar a cintura do paciente;\n\nApóie os braços dele sobre os ombros;\n\nPara ter uma boa base de apoio, mantenha seus pés um pouco afastados: um\napontando para a cama e o outro para a cadeira de rodas;\n\n\nQuando for transferir o paciente para a poltrona, traga-o para a beirada do leito.\nNão se afaste nesse momento, pois ele poderá ter tonteiras e cair;\n\nColoque a poltrona ou cadeira de rodas bem próxima à cama, de preferência do\nlado não afetado;",
+        "type" : "label"
+      } ]
+    },
+    "instances" : 0
+  }, {
+    "id" : "class11",
+    "label" : {
+      "IRI-based" : "OWLClass_483e1eae_946e_4423_9533_33d5ec140221",
+      "en" : "Fever"
+    },
+    "iri" : "http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_483e1eae_946e_4423_9533_33d5ec140221",
+    "superClasses" : [ "class1" ],
+    "instances" : 0
+  }, {
+    "id" : "class31",
+    "label" : {
+      "IRI-based" : "OWLClass_05cc1cf1_9458_40be_8d3b_cfbafe56da9c",
+      "en" : "Fall"
+    },
+    "iri" : "http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_05cc1cf1_9458_40be_8d3b_cfbafe56da9c",
+    "superClasses" : [ "class18" ],
+    "instances" : 0
+  }, {
+    "id" : "class6",
+    "label" : {
+      "IRI-based" : "OWLClass_d615065e_6887_4e88_9a34_c0e9e6e5e6ac",
+      "en" : "Skin"
+    },
+    "iri" : "http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_d615065e_6887_4e88_9a34_c0e9e6e5e6ac",
+    "superClasses" : [ "class21" ],
+    "annotations" : {
+      "OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a" : [ {
+        "identifier" : "OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a",
+        "language" : "undefined",
+        "value" : "Observe se há lugares onde a\npele parece avermelhada (ombros, nádegas, calcanhar etc.);\nCaso observe essas regiões avermelhadas, talvez seja necessário\nprovidenciar um colchão do tipo\n“caixa de ovo”. Coxins bem macios\nou protetores de espuma também\npodem ser úteis (peça orientações e\nsugestões à equipe de enfermagem)",
+        "type" : "label"
+      } ]
+    },
+    "instances" : 0
+  }, {
+    "id" : "class14",
+    "label" : {
+      "IRI-based" : "OWLClass_6d1e284b_0421_46f2_9179_d96fa6c43e83",
+      "en" : "Dry Mouth",
+      "undefined" : "gf"
+    },
+    "iri" : "http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_6d1e284b_0421_46f2_9179_d96fa6c43e83",
+    "superClasses" : [ "class10" ],
+    "annotations" : {
+      "OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a" : [ {
+        "identifier" : "OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a",
+        "language" : "undefined",
+        "value" : "Se você está sentindo a boca seca, siga as orientações abaixo:\n• aumente a ingestão de líquidos;\n• mastigue bem lentamente os alimentos;\n• evite comer alimentos secos, duros e crocantes;\n• prepare a comida com caldos ou molhos;\n• consuma frutas cítricas e com alto teor de líquidos. Exemplos: abacaxi, laranja\ne morango;\n• em caso de aftas, evite alimentos muito salgados e ácidos;\n• se não houver aftas, chupe balas, picolés ou gelo, ou mastigue chicletes (de\npreferência os de menta ou cítricos) que podem ajudar a produzir mais saliva;\n•\t ingira água com gotas ou rodelas de limão.",
+        "type" : "label"
+      } ]
+    },
+    "instances" : 0
+  }, {
+    "id" : "class27",
+    "label" : {
+      "IRI-based" : "OWLClass_1980b942_65d1_4f23_ab30_1c2500d1568b",
+      "en" : "Protocol"
+    },
+    "iri" : "http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_1980b942_65d1_4f23_ab30_1c2500d1568b",
+    "subClasses" : [ "class1", "class18", "class13" ],
+    "instances" : 0
+  }, {
+    "id" : "class24",
+    "label" : {
+      "IRI-based" : "OWLClass_43e1b1fb_fba1_493a_ba8a_fcab6adb438d",
+      "en" : "Hypotension"
+    },
+    "iri" : "http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_43e1b1fb_fba1_493a_ba8a_fcab6adb438d",
+    "superClasses" : [ "class1" ],
+    "instances" : 0
+  }, {
+    "id" : "class20",
+    "label" : {
+      "IRI-based" : "OWLClass_bd80c4a2_6345_4b97_ace1_ab1661226d9d",
+      "en" : "Transport"
+    },
+    "iri" : "http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_bd80c4a2_6345_4b97_ace1_ab1661226d9d",
+    "subClasses" : [ "class19", "class15", "class25" ],
+    "superClasses" : [ "class13" ],
+    "instances" : 0
+  }, {
+    "id" : "class22",
+    "label" : {
+      "IRI-based" : "OWLClass_fa07e01f_d216_4af5_96db_26605e2ca1ff",
+      "en" : "Weakness"
+    },
+    "iri" : "http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_fa07e01f_d216_4af5_96db_26605e2ca1ff",
+    "superClasses" : [ "class1" ],
+    "instances" : 0
+  }, {
+    "id" : "class21",
+    "label" : {
+      "IRI-based" : "OWLClass_a7b42e94_8fdd_4a42_819d_d12c9fafa0b4",
+      "en" : "Hygiene"
+    },
+    "iri" : "http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_a7b42e94_8fdd_4a42_819d_d12c9fafa0b4",
+    "subClasses" : [ "class23", "class17", "class4", "class6" ],
+    "superClasses" : [ "class13" ],
+    "instances" : 0
+  }, {
+    "id" : "class33",
+    "label" : {
+      "IRI-based" : "OWLClass_2f73c6d1_3f32_45d0_9fc1_a9cfaf2b110f",
+      "en" : "Low Immunity"
+    },
+    "iri" : "http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_2f73c6d1_3f32_45d0_9fc1_a9cfaf2b110f",
+    "superClasses" : [ "class10" ],
+    "annotations" : {
+      "OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a" : [ {
+        "identifier" : "OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a",
+        "language" : "undefined",
+        "value" : "A neutropenia e a leucopenia são alterações em que as defesas do organismo estão\ndiminuídas, aumentando as chances de aparecimento de infecções, febre, diarreia,\netc. Por isso, a alimentação deve ser segura, já que muitas bactérias e outros\nmicro-organismos podem encontrar nos alimentos lugar ideal para se multiplicarem.\nAbaixo, alguns cuidados que devem ser tomados:\n•\t Quando comprar os alimentos, observe com atenção a qualidade e frescor\nde frutas, verduras, legumes, carnes, peixes e ovos. Verifque se a embalagem\nnão está danifcada, pois isso permite a entrada de micro-organismos que\npodem causar doenças. Observe sempre a data de validade antes de comprar e\nconsumir qualquer alimento e mantenha-os nas temperaturas recomendadas\nnos rótulos.\n•\t Todas as embalagens comerciais de queijos, leite, iogurte e outros alimentos\ndevem ser lavadas com sabão de coco ou neutro antes de irem para a\ngeladeira ou freezer.\n•\t Lave também as tampas de enlatados e conservas antes de abri-los.\n•\t Nunca prove alimentos que pareçam estar estragados ou tenham odor\nestranho.\n•\t Beba somente água fltrada ou fervida.\n•\t Lave bem as mãos antes de comer ou preparar os alimentos.\n•\t Não manipule os alimentos quando houver ferimentos nas mãos.\n•\t Mantenha as unhas aparadas e limpas e os cabelos presos para manipular\nos alimentos.\n•\t Ao cozinhar, mantenha as mãos longe da boca, cabelos e nariz e evite usar\nanéis, brincos e pulseiras, pois eles podem levar micro-organismos aos\nalimentos.\n•\t Descongele as carnes deixando-as previamente na geladeira e nunca\nrecongele.\n•\t A bancada e os utensílios utilizados no preparo dos alimentos também devem\nser lavados antes de sua utilização.\n•\t Ovos e carnes devem estar bem cozidos. As carnes não devem ter partes\nrosadas (cruas ou mal passadas) e os ovos devem estar com a gema dura.\n•\t Lave frutas e verduras com água corrente antes de descascar ou cortar.\n•\t Lave as louças com sabão industrializado e troque a esponja a cada 15 dias.",
+        "type" : "label"
+      } ]
+    },
+    "instances" : 0
+  }, {
+    "id" : "class23",
+    "label" : {
+      "IRI-based" : "OWLClass_913008b2_9422_4549_863c_991990b3bbf6",
+      "en" : "Hand"
+    },
+    "iri" : "http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_913008b2_9422_4549_863c_991990b3bbf6",
+    "superClasses" : [ "class21" ],
+    "annotations" : {
+      "OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a" : [ {
+        "identifier" : "OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a",
+        "language" : "undefined",
+        "value" : "Embora as mãos pareçam limpas, existem\nmilhões de bactérias e micróbios que podem\nse esconder embaixo das unhas, mesmo depois de lavar as mãos com bastante água.\nA forma descrita abaixo é a mais efciente\npara eliminar grande parte dos germes. Se\nnão for possível fazer exatamente deste\njeito em todas as ocasiões, tente seguir\nessas instruções na hora de preparar as\nrefeições e fazer curativos.\n\nComo lavar as mãos\nPegue um sabonete ou o próprio\nsabão de lavar roupa e esfregue\nas mãos por um minuto mais ou\nmenos; enxágüe-as, tirando todo\no sabão desta primeira lavagem;\nEnsaboe-as novamente e, desta vez,\nconcentre-se nos dedos e unhas;\nProcure lavar dedo por dedo de\ntodos os lados;\nCom uma espátula de unhas\n(igual a que se usa para tirar o excesso de esmalte), limpe embaixo\ndas mesmas;\nCom as mãos ainda cheias\nde sabão, lave a parte\nda torneira que você vai\ntocar para fechá-la;\nEnxágüe as mãos e a torneira;\nApós fechar a torneira, seque suas mãos com uma toalha\nbem limpa.",
+        "type" : "label"
+      } ]
+    },
+    "instances" : 0
+  }, {
+    "id" : "class29",
+    "label" : {
+      "IRI-based" : "OWLClass_6d67d5dc_71fb_4e47_bd6f_32185973eec1",
+      "en" : "Lack of Appetite"
+    },
+    "iri" : "http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_6d67d5dc_71fb_4e47_bd6f_32185973eec1",
+    "superClasses" : [ "class10" ],
+    "annotations" : {
+      "OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a" : [ {
+        "identifier" : "OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a",
+        "language" : "undefined",
+        "value" : "Se você não consegue comer porque não sente fome, lembre-se de que\na alimentação é parte importante do seu tratamento e pode ajudá-lo a se\nsentir mais disposto.\nAs seguintes sugestões podem tornar mais prazeroso o momento das refeições,\npara que você tenha vontade de comer:\n•\t faça pequenas refeições com intervalos de tempo menores entre elas.\nTente comer de 2 em 2 horas. Não se preocupe em comer tudo, mas faça\num esforço para consumir aquilo que mais te agradar;\n•\t tente não pular as refeições, mesmo que não tenha vontade de comer.\nNessas situações, tente escolher algum alimento de fácil mastigação, como\nmingau, sopas e vitaminas;\n•\t prepare pratos coloridos e variados e inclua novos alimentos em seu\ncardápio;\n•\t converse com seus familiares ou cuidadores sobre\nseus desejos alimentares antes do preparo de\nsuas refeições para ajudá-los a acertar seus\ngostos em relação ao uso de temperos, à\nquantidade e temperatura das refeições;\n•\t sugestões para enriquecer algumas\npreparações:\n- adicione azeite, óleo vegetal, creme de\nleite ou gema de ovo em sopas, purês\ne mingaus;\n- mingaus e vitaminas de frutas também\nsão calóricos. Misture farinhas variadas\npara não cansar do sabor (aveia, maisena,\ncremogema, fubá, etc.);\n- nas sopas: varie os vegetais e adicione macarrão, carne, frango\ne ovo;\n- no prato (refeição) do almoço e jantar: adicione óleo vegetal\n(1 colher de sopa). Pode ser azeite de oliva, óleo de soja, milho,\ncanola ou girassol;8\n- faça sucos compostos de duas frutas ou de uma fruta com um vegetal\n(exemplo: laranja + cenoura, laranja + banana + maçã);\n- nos pães, torradas e biscoitos você pode adicionar queijo, requeijão, geleia\nde fruta ou mel;\n- opções de sobremesa: frutas, doces, frutas em calda ou sorvetes;\n- se você é diabético ou faz dieta controlada em açúcar, só consuma doces\ne açúcares na versão diet",
+        "type" : "label"
+      } ]
+    },
+    "instances" : 0
+  }, {
+    "id" : "class2",
+    "label" : {
+      "IRI-based" : "OWLClass_f47107af_910f_4eed_9f10_dd1438be0339",
+      "en" : "Flatulence"
+    },
+    "iri" : "http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_f47107af_910f_4eed_9f10_dd1438be0339",
+    "superClasses" : [ "class10" ],
+    "annotations" : {
+      "OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a" : [ {
+        "identifier" : "OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a",
+        "language" : "undefined",
+        "value" : "Para evitar que você apresente desconforto com o excesso de gases, sugerimos que\nvocê tome alguns cuidados:\n• Mastigue lentamente os alimentos com a boca fechada e evite falar durante\nas refeições.\n• Casoprefraacrescentaralhoecebolanopreparodasrefeições,use-ossempre\nrefogados e com moderação.\n• Evite os alimentos que fermentam e formam maiores quantidades de gases,\ntais como: condimentos picantes, batata-doce, agrião, berinjela, couve-?or,\ncouve-manteiga,repolho,mostarda,soja,caroçodefeijão,ervilhaseca,aveia,\novos, vísceras (rim, coração, fígado, miolo).\n• Evite refrigerantes e bebidas gasosas.",
+        "type" : "label"
+      } ]
+    },
+    "instances" : 0
+  }, {
+    "id" : "class18",
+    "label" : {
+      "IRI-based" : "OWLClass_37758a6b_e134_452c_9dd2_f398f891f5da",
+      "en" : "Intercurrence"
+    },
+    "iri" : "http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_37758a6b_e134_452c_9dd2_f398f891f5da",
+    "subClasses" : [ "class31", "class32", "class3" ],
+    "superClasses" : [ "class27" ],
+    "instances" : 0
+  }, {
+    "id" : "class26",
+    "label" : {
+      "IRI-based" : "OWLClass_6ca35ab3_2192_4023_8bb5_8958d76f6860",
+      "en" : "Taste and Smell Disturbance"
+    },
+    "iri" : "http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_6ca35ab3_2192_4023_8bb5_8958d76f6860",
+    "superClasses" : [ "class10" ],
+    "annotations" : {
+      "OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a" : [ {
+        "identifier" : "OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a",
+        "language" : "undefined",
+        "value" : "Escolha alimentos com boa aparência e odor agradável.\n• Chupe balas de menta ou de hortelã, se você for diabético escolha\nas versões diet.\n•\t Para diminuir a sensação de sabor doce nas preparações\nsalgadas, adicione gotas de limão e pitada de sal.\n•\t Se estiver com a sensação de gosto metálico na boca,\nevite consumir carne vermelha.\n• Consumaalimentosbemtemperados,dandoênfaseao\naroma e à textura. Esses temperos devem ser naturais\n(exemplos:hortelã,manjericão,limão,salsa,cebolinha,\ncoentro, cebola, alho, orégano).\n• Alimentos ricos em zinco e cobre ajudam na\nrecuperação do paladar, como milho, feijão, cereais\nde trigo, aveia, ovos, carne assada, ervilhas, pães\nintegrais, vegetais folhosos escuros",
+        "type" : "label"
+      } ]
+    },
+    "instances" : 0
+  }, {
+    "id" : "class16",
+    "label" : {
+      "IRI-based" : "OWLClass_21f9472d_2d04_45f9_8a9a_f87e1d81a890",
+      "en" : "Nausea and Vomiting"
+    },
+    "iri" : "http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_21f9472d_2d04_45f9_8a9a_f87e1d81a890",
+    "superClasses" : [ "class10" ],
+    "annotations" : {
+      "OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a" : [ {
+        "identifier" : "OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a",
+        "language" : "undefined",
+        "value" : "Não fque muito tempo sem se alimentar. Lembre-se de que o jejum\nprolongado pode piorar os sintomas, então faça pequenas refeições com\nintervalos de tempo menores entre as refeições (você pode aumentar o\nfracionamento das suas refeições alimentando-se de 2 em 2 horas).\n•\t Procurenãofcarpróximodolocaldepreparodoalimentoefaçaasrefeições\nem locais frescos e arejados.\n•\t Não deite após as refeições. Você deve descansar sentado.\n•\t Evite beber líquidos no mesmo horário das refeições.\n•\t Evite ingerir os alimentos que você mais gosta nos episódios mais intensos,\npoiselesserãoassociadosàsensaçãodemal-estar.\n•\t Mantenha a sua higiene oral em dia.\n•\t Prefra roupas confortáveis.\n•\t Algunsalimentossãocapazesdepiorara\nsensaçãodeenjooe,porisso,vocêdeve\nevitá-los. São eles:\n-\t frituras, alimentos gordurosos ou\noleosos;\n-\t alimentos muito quentes, muito\ncondimentados ou picantes;\n-\t alimentos muito doces e com odores\nfortes.\n•\t Alimentos gelados melhoram a sensação de\nenjoo, então:9\n-\t chupegelo30minutosantesdasrefeições.Você\npode fazer forminhas de gelo com sabores\nvariados,comoáguadecocoesucoscítricos\n(limão, maracujá, etc.);\n-\t chupepicolésdefrutascítricas,comolimão,\nmaracujá, uva e morango;\n-\t beba sucos ou vitaminas bem gelados,\nmilkshakes e sorvetes.",
+        "type" : "label"
+      } ],
+      "OWLAnnotationProperty_604aaa9b_89b0_4b38_bf70_841137f8a3c2" : [ {
+        "identifier" : "OWLAnnotationProperty_604aaa9b_89b0_4b38_bf70_841137f8a3c2",
+        "language" : "undefined",
+        "value" : "ATENÇÃO: Alguns quimioterápicos (como a Oxaliplatina) causam reações\nadversas quando há o consumo de alimentos ou bebidas geladas. Sendo assim,\npergunte a sua equipe de saúde, nutricionista, médico(a) ou enfermeiro(a),\nse você pode consumir gelados.",
+        "type" : "label"
+      } ]
+    },
+    "instances" : 0
+  }, {
+    "id" : "class17",
+    "label" : {
+      "IRI-based" : "OWLClass_9c9b7783_96ab_4836_bbdf_8d7208c3bea4",
+      "en" : "Bath"
+    },
+    "iri" : "http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_9c9b7783_96ab_4836_bbdf_8d7208c3bea4",
+    "superClasses" : [ "class21" ],
+    "annotations" : {
+      "OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a" : [ {
+        "identifier" : "OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a",
+        "language" : "undefined",
+        "value" : "Deixe que o paciente escolha a melhor\nhora para seu banho;\n\nSe ele puder fazê-lo sozinho, organize\ntodo o material necessário e coloque\npróximo dele;\n\nNão o deixe completamente só, pois ele\npode precisar de sua ajuda se algo\nerrado acontecer;\n\nVerifque a temperatura da\nágua. O paciente pode não\nperceber a temperatura, se\nalguma parte do corpo dele\nestiver menos sensível;\n\nAproveite para, depois do\nbanho, massagear a pele dele\ncom um creme hidratante;",
+        "type" : "label"
+      } ]
+    },
+    "instances" : 0
+  }, {
+    "id" : "class28",
+    "label" : {
+      "IRI-based" : "OWLClass_89fbf45d_53ff_4aba_9ee5_1204893d4edb",
+      "en" : "Medication"
+    },
+    "iri" : "http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_89fbf45d_53ff_4aba_9ee5_1204893d4edb",
+    "superClasses" : [ "class13" ],
+    "annotations" : {
+      "OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a" : [ {
+        "identifier" : "OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a",
+        "language" : "undefined",
+        "value" : "A organização dos\nremédios (com suas\ndoses e horários) deve ser\nfeita com muita atenção.\nEsclareça suas dúvidas com\nos médicos antes de oferecer\nos remédios;\nNão ofereça comprimidos, cápsulas ou outros medicamentos\nque devem ser engolidos quando\no paciente estiver deitado. Mantenha a cabeceira bem elevada\npara isso. Se não for possível\nconseguir uma cama adaptada, use\ntravesseiros ou almofadas grandes;\nSe não for possível elevar a cabeceira, vire-o de lado;\nSe houver difculdade de engolir os\ncomprimidos, triture-os e dissolva\no pó em uma pequena quantidade\nde água. Não esqueça de verifcar\nsempre a data de validade\ndos medicamentos.",
+        "type" : "label"
+      } ]
+    },
+    "instances" : 0
+  }, {
+    "id" : "class30",
+    "label" : {
+      "IRI-based" : "OWLClass_8345fcdb_2753_4fa5_a05a_1c5024b3fa85",
+      "en" : "Diarrhea"
+    },
+    "iri" : "http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_8345fcdb_2753_4fa5_a05a_1c5024b3fa85",
+    "superClasses" : [ "class10" ],
+    "annotations" : {
+      "OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a" : [ {
+        "identifier" : "OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a",
+        "language" : "undefined",
+        "value" : "A diarreia é caracterizada por três ou mais evacuações líquidas por dia, podendo\nlevar à desidratação pela perda de líquidos em seu organismo. Ela pode ser causada\npela quimioterapia, radioterapia, infecção ou sensibilidade a certos alimentos. Veja\nalgumas orientações para ajudar no controle da diarreia:\n• Beba bastante líquido durante o dia (aproximadamente 12 copos por dia).\nIsso é importante para repor a perda de líquidos que acontece durante a\ndiarreia. Os líquidos que podem ser consumidos são: água, água de coco, suco\nde fruta natural ou de polpa.\nDê preferência aos alimentos que controlam ou evitam a diarreia, tais como:\n-\tfrutas: banana prata ou banana maçã, caju, maçã sem casca, pêra sem casca,\nlimão, goiaba sem cascas e sem sementes, pêssego sem casca, maracujá,\nmelão, melancia;\n-\tsucos: goiaba, caju e limonada. Coados, de preferência;\n-\tlegumes cozidos: batata, beterraba, cenoura, chuchu,\naipim, inhame, cará, abobrinha sem casca;\n-\tcereais: arroz, macarrão, fécula de batata, farinha\nde arroz, creme de arroz, maisena, mucilon de\narroz, pão (de preferência torrado), biscoito cream\ncracker, biscoito maisena, torrada e farinha de\ntapioca (goma);\n-\tchás: preto, mate, erva doce, erva cidreira, canela,\ncamomila, hortelã, maçã;\n-\tovo cozido;\n-\tcarnes magras (frango sem pele, peixe sem couro ou carne\nvermelha sem gordura, cozidos, grelhados ou assados).\n• Consumir preferencialmente leite e derivados com\nbaixo teor de gordura (versões light, desnatados ou semidesnatados).\n•\t Em caso de diarreia persistente (7 ou mais dias), pode\nocorrer intolerância ao leite de vaca. Se isto ocorrer,\nsubstitua o leite de vaca por leite de soja ou leite isento\nem lactose. Essa intolerância pode não acontecer para\nos derivados do leite. Ou seja, você poderá continuar\nconsumindo iogurtes e queijos brancos, de acordo com\na sua tolerância. Experimente e observe! Você pode\nconsumir também sucos de fruta, chás ou água de coco.\n• Evite frituras e alimentos gordurosos, inclusive amendoim,\nnozes, castanhas, amêndoas e coco.\n• Evite alimentos enlatados, condimentos fortes, apimentados\nou irritantes (como o café).\n• Evite alimentos laxativos (que soltam o intestino), como:\n- verduras cruas (vegetais folhosos);\n- frutas: mamão, laranja, ameixa;12\n- farelos integrais: aveia, trigo, linhaça;\n- alimentos açucarados, como doces concentrados\n(goiabada, marmelada, geleia de mocotó, marrom\nglacê, bananada) e chocolates.\nLembre-se de lavar sempre as mãos, principalmente antes das\nrefeições,paraevitarcontaminação,quepodelevarainfecções\nintestinais.\nOsorocaseiropodeserusadoparaevitardesidratação,podendo\nseringeridoàvontadeenquantoadiarreiaeasedepersistirem.\nPrepare com:\n- 1 copo de água;\n- 1 colher (de sopa) rasa de açúcar; e\n- 1 colher (de café) rasa de sal.\nÁgua de coco e isotônicos também ajudam a recuperar os\nminerais perdidos na diarreia!\nSe a diarreia for muito persistente e intensa (mais de\n6 evacuações por dia) procure atendimento médico!",
+        "type" : "label"
+      } ]
+    },
+    "instances" : 0
+  }, {
+    "id" : "class32",
+    "label" : {
+      "IRI-based" : "OWLClass_2f658b9b_cddc_4aba_b293_24410129a0f0",
+      "en" : "Adverse reaction"
+    },
+    "iri" : "http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_2f658b9b_cddc_4aba_b293_24410129a0f0",
+    "superClasses" : [ "class18" ],
+    "instances" : 0
+  }, {
+    "id" : "class8",
+    "label" : {
+      "IRI-based" : "OWLClass_3cc0af0f_11b3_4601_9687_11ed03107bc8",
+      "en" : "Constipation"
+    },
+    "iri" : "http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_3cc0af0f_11b3_4601_9687_11ed03107bc8",
+    "superClasses" : [ "class10" ],
+    "annotations" : {
+      "OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a" : [ {
+        "identifier" : "OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a",
+        "language" : "undefined",
+        "value" : "Umaalimentaçãoinadequadaealgunsmedicamentosparador\npodem causar “prisão de ventre”. Procure seguir algumas\nsugestões para evitar esse problema:\n• Beba bastante líquido, especialmente água.\nRecomenda-se ingerir aproximadamente\n8 copos por dia, pois isso ajuda manter a\nconsistência apropriada das fezes.\n• Coma alimentos ricos em fbras, como:\n-\t vegetais folhosos: agrião, alface, acelga,\nbrócolis, espinafre, couve, bertalha;\n-\t legumes: abóbora, beterraba, abobrinha,\nvagem;13\n-\t frutas: mamão, laranja com bagaço,\nacerola,ameixa,tangerina,caqui,uvacom\ncasca, banana d´água e pêra;\n-\t leguminosas:feijão,soja,lentilha,grãode\nbico, milho;\n-\t pão, biscoito e cereais integrais, farelo de\ntrigo ou de aveia.\n• Aproveite ao máximo as cascas ou talos dos\nalimentos.\n• Os alimentos que prendem o intestino, como\nmaçã, banana prata, goiaba, caju, limão,\ncenouracozida,batatas,aipim,inhame,cará,\ncreme de arroz, chá preto, refrigerantes e\nmate,podemseringeridosmoderadamente\ndesde que associado a uma ingestão\nadequada de fibras (alimentos citados\nacima).\n• Crie o hábito de ir ao banheiro sempre que\nsentir vontade de evacuar.\n• Dicas de preparações laxativas que você pode\nconsumir diariamente:\nCreme laxativo 1:\n-\t 3 ameixas secas sem caroço;\n-\t 1 laranja com bagaço, sem semente e cortada em cubos;\n-\t 1 fatia média de mamão;\n-\t ½ copo de iogurte natural; e\n-\t 1 colher de farelo de trigo.\nPreparo:\nDeixe as ameixas de molho em ½ copo de água por algumas horas. Bata\nno liquidifcador as ameixas, a água do molho, a laranja picada, o mamão, o\niogurte e o farelo de trigo. Adicione gelo e adoce se achar necessário. Beba\npela manhã em jejum.14\nCreme laxativo 2:\n-\t 1 pedaço pequeno de mamão;\n-\t 1 colher de sopa de mel; e\n-\t 1 colher de sopa de aveia em ?ocos.\nPreparo:\nBata no liquidifcador o mamão, o mel e a aveia em ?ocos. Adoce se achar\nnecessário. Deixe na geladeira por alguns minutos. Você pode consumir a\nqualquer hora do dia, inclusive como sobremesa.\nOpções de sucos laxativos:\n- suco laranja não coado + ameixa + mamão.\n- suco de uva + ameixa + pêra.\n- suco de melancia + maçã com casca + melão.\n- suco de abacaxi + cenoura.\n- suco de mamão + ameixa + água de coco.\n- suco de maçã com casca + manga + cenoura + pêra.\n- suco de cenoura + kiwi + água de coco.\n- suco de kiwi + maçã.\nPreparo:\nBata no liquidificador os ingredientes de cada suco e adoce se achar\nnecessário. Depois está pronto para beber.",
+        "type" : "label"
+      } ]
+    },
+    "instances" : 0
+  }, {
+    "id" : "class3",
+    "label" : {
+      "IRI-based" : "OWLClass_dde6a781_b962_4b30_a1ae_2b920e96b2b3",
+      "en" : "Unexpected Symptom"
+    },
+    "iri" : "http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_dde6a781_b962_4b30_a1ae_2b920e96b2b3",
+    "superClasses" : [ "class18" ],
+    "instances" : 0
+  }, {
+    "id" : "class1",
+    "label" : {
+      "IRI-based" : "OWLClass_1ad306b3_7fc1_45f7_929e_f6dc7f722258",
+      "en" : "Expected Reaction"
+    },
+    "iri" : "http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_1ad306b3_7fc1_45f7_929e_f6dc7f722258",
+    "subClasses" : [ "class7", "class24", "class11", "class5", "class22" ],
+    "superClasses" : [ "class27" ],
+    "instances" : 0
+  }, {
+    "id" : "class4",
+    "label" : {
+      "IRI-based" : "OWLClass_9ca8aafe_3117_425f_b6a7_21d319b79cdc",
+      "en" : "Mouth"
+    },
+    "iri" : "http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_9ca8aafe_3117_425f_b6a7_21d319b79cdc",
+    "superClasses" : [ "class21" ],
+    "annotations" : {
+      "OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a" : [ {
+        "identifier" : "OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a",
+        "language" : "undefined",
+        "value" : "A higiene bucal deve ser feita pela\nmanhã, noite e após cada refeição;\nProcure uma escova de dentes bem\nmacia, que se adapte melhor às necessidades do paciente;\nAlterações na saliva (boca seca)",
+        "type" : "label"
+      } ]
+    },
+    "instances" : 0
+  }, {
+    "id" : "class5",
+    "label" : {
+      "IRI-based" : "OWLClass_dca42a9e_abcb_455f_b310_0a7505107b92",
+      "en" : "Pressure Ulcer"
+    },
+    "iri" : "http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_dca42a9e_abcb_455f_b310_0a7505107b92",
+    "superClasses" : [ "class1" ],
+    "annotations" : {
+      "OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a" : [ {
+        "identifier" : "OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a",
+        "language" : "undefined",
+        "value" : "É uma ferida bastante dolorosa\ncausada pela pressão ou pelo atrito\nprolongado nas regiões da pele em\nque os ossos são mais salientes. Para\npreveni-las, é necessária a mobilização\ne massageamento constante para ativar a circulação dos pacientes acamados\npor longos períodos.",
+        "type" : "label"
+      } ]
+    },
+    "instances" : 0
+  }, {
+    "id" : "class9",
+    "label" : {
+      "IRI-based" : "OWLClass_cafc7a02_f265_4da1_a70b_fe5f2931c9b6",
+      "en" : "Sore Throat"
+    },
+    "iri" : "http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_cafc7a02_f265_4da1_a70b_fe5f2931c9b6",
+    "superClasses" : [ "class10" ],
+    "annotations" : {
+      "OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a" : [ {
+        "identifier" : "OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a",
+        "language" : "undefined",
+        "value" : "Pode acontecer, principalmente se o câncer for localizado na boca e garganta. A\nradioterapia e os medicamentos podem causar dores devido ao surgimento de aftas.\nAlguns cuidados especiais poderão facilitar o ato de comer:\n• evite alimentos ácidos, picantes, muito condimentados ou salgados;\n• evite alimentos duros e de difícil mastigação;\n• a comida deve ser preparada na consistência que for melhor tolerada, e que\nofereça menor difculdade para mastigar ou engolir (alimentos bem cozidos,\nsu?ês, purês, etc.);\n• em casos graves, prefra alimentos líquidos, liquidifcados, e em temperatura\nambiente (nem muito frio e nem muito quente);\n• pequenos goles de água ou suco durante as refeições também podem ajudar\na engolir.",
+        "type" : "label"
+      } ]
+    },
+    "instances" : 0
+  }, {
+    "id" : "class25",
+    "label" : {
+      "IRI-based" : "OWLClass_7cc04344_68f7_412c_8bd4_08ba8a4f4644",
+      "en" : "Bathroom"
+    },
+    "iri" : "http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_7cc04344_68f7_412c_8bd4_08ba8a4f4644",
+    "superClasses" : [ "class20" ],
+    "annotations" : {
+      "OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a" : [ {
+        "identifier" : "OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a",
+        "language" : "undefined",
+        "value" : "O enfermo vai precisar freqüentemente de ajuda para ir ao banheiro. Ele deve sentir-se à vontade\npara chamar o cuidador quando\nprecisar. Procure lhe dar a maior\nprivacidade possível. Se houver\npessoas no quarto, peça para\nsaírem por um instante.\nEm vez de fazer suas necessidades no leito, é preferível\nque o paciente vá ao banheiro\n(sozinho ou acompanhado)\nmesmo que seja com algumas\ndifculdades.\nColoque no banheiro todo o\nmaterial de higiene que ele\npoderá precisar em um lugar\nque seja fácil alcançar.\nPeça orientações à equipe de\nenfermagem sobre como limpar\no paciente após as evacuações.",
+        "type" : "label"
+      } ]
+    },
+    "instances" : 0
+  }, {
+    "id" : "class15",
+    "label" : {
+      "IRI-based" : "OWLClass_73780f7a_2726_43b6_99a6_714e84796aa9",
+      "en" : "Wheelchair"
+    },
+    "iri" : "http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_73780f7a_2726_43b6_99a6_714e84796aa9",
+    "superClasses" : [ "class20" ],
+    "annotations" : {
+      "OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a" : [ {
+        "identifier" : "OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a",
+        "language" : "undefined",
+        "value" : "Coloque a poltrona ou cadeira de rodas bem próxima à cama, de preferência do\nlado não afetado;\nQuando for transferir o paciente para a poltrona, traga-o para a beirada do leito.\nNão se afaste nesse momento, pois ele poderá ter tonteiras e cair;\nPara ter uma boa base de apoio, mantenha seus pés um pouco afastados: um\napontando para a cama e o outro para a cadeira de rodas;\nApóie os braços dele sobre os ombros;\nOs seus joelhos devem estar um pouco ?exionados e suas\nmãos devem segurar a cintura do paciente;\nSe quiser melhorar o apoio, coloque nele um cinto\nbem largo para poder segurá-lo com mais frmeza;\nCaso ele não possa sair do leito, procure\nmudá-lo de posição várias vezes durante o\ndia (deitar de lado ou de costas);",
+        "type" : "label"
+      } ]
+    },
+    "instances" : 0
+  }, {
+    "id" : "class12",
+    "label" : {
+      "IRI-based" : "OWLClass_b7ce2d94_d95c_432c_86fe_8f30bc83bcbc",
+      "en" : "Sanitizing Vegetables"
+    },
+    "iri" : "http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_b7ce2d94_d95c_432c_86fe_8f30bc83bcbc",
+    "superClasses" : [ "class10" ],
+    "annotations" : {
+      "OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a" : [ {
+        "identifier" : "OWLAnnotationProperty_a2c98513_304d_45b2_9593_f8e38cfcf79a",
+        "language" : "undefined",
+        "value" : "Todos os vegetais (frutas, verduras e legumes) que forem\nconsumidos crus devem passar por esse processo de\nhigienização, que deve ser feito antes de descascar e\ncortar o alimento.\nPrimeiro, você deve retirar folhas ou unidades\ndeterioradas.Depois,lavaremáguacorrenteasfrutas,\nlegumes e verduras (uma a uma); colocar de molho\npor 10 minutos (orientação da Agência Nacional de\nVigilânciaSanitária-Anvisa)emumasoluçãocontendo\numa colher de sopa rasa de hipoclorito de sódio (água\nsanitária de 2 a 2,5%) para cada litro de água potável. Em\nseguida, enxague em água fltrada corrente. Nunca use cloro puro!\nSoluçõesdehipocloritodesódioa1%ouprodutosàbasedecloroorgânico,específcos\npara lavagem de vegetais, também podem ser utilizados.",
+        "type" : "label"
+      } ]
+    },
+    "instances" : 0
+  }, {
+    "id" : "class7",
+    "label" : {
+      "IRI-based" : "OWLClass_0073f988_8091_4856_9628_ab816e4d3481",
+      "en" : "Hypertension"
+    },
+    "iri" : "http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_0073f988_8091_4856_9628_ab816e4d3481",
+    "superClasses" : [ "class1" ],
+    "instances" : 0
+  }, {
+    "id" : "class13",
+    "label" : {
+      "IRI-based" : "OWLClass_6cffa196_5e4a_4d17_bc7f_e188a7c6ef44",
+      "en" : "Care"
+    },
+    "iri" : "http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_6cffa196_5e4a_4d17_bc7f_e188a7c6ef44",
+    "subClasses" : [ "class10", "class28", "class21", "class20" ],
+    "superClasses" : [ "class27" ],
+    "instances" : 0
+  }, {
+    "id" : "class10",
+    "label" : {
+      "IRI-based" : "OWLClass_19f97f27_d500_4c94_95e9_ed57c06fcc5c",
+      "en" : "Feeding"
+    },
+    "iri" : "http://www.semanticweb.org/garden/ontologies/homecar#OWLClass_19f97f27_d500_4c94_95e9_ed57c06fcc5c",
+    "subClasses" : [ "class16", "class33", "class8", "class26", "class14", "class29", "class30", "class12", "class9", "class2" ],
+    "superClasses" : [ "class13" ],
+    "instances" : 0
+  } ],
+  "property" : [ {
+    "id" : "property2",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property1",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property29",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property4",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property3",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property25",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property28",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property22",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property44",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property21",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property43",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property24",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property23",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property40",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property20",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property42",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property41",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property9",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property6",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property5",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property8",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property7",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property18",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property15",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property37",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property14",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property36",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property17",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property39",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property16",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "property38",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property11",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property10",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property13",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property35",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property12",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property31",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "property30",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "id" : "property2",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class18",
+    "range" : "class27"
+  }, {
+    "id" : "property1",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class1",
+    "range" : "class27"
+  }, {
+    "id" : "property29",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class28",
+    "range" : "class13"
+  }, {
+    "id" : "property4",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class19",
+    "range" : "class20"
+  }, {
+    "id" : "property3",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class13",
+    "range" : "class27"
+  }, {
+    "id" : "property25",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class13",
+    "range" : "class1"
+  }, {
+    "id" : "property28",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class10",
+    "range" : "class13"
+  }, {
+    "id" : "property22",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class11",
+    "range" : "class1"
+  }, {
+    "id" : "property44",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class2",
+    "range" : "class10"
+  }, {
+    "id" : "property21",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class24",
+    "range" : "class1"
+  }, {
+    "id" : "property43",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class9",
+    "range" : "class10"
+  }, {
+    "id" : "property24",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class22",
+    "range" : "class1"
+  }, {
+    "id" : "property23",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class5",
+    "range" : "class1"
+  }, {
+    "id" : "property40",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class29",
+    "range" : "class10"
+  }, {
+    "id" : "property20",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class7",
+    "range" : "class1"
+  }, {
+    "id" : "property42",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class12",
+    "range" : "class10"
+  }, {
+    "id" : "property41",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class30",
+    "range" : "class10"
+  }, {
+    "id" : "property9",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class4",
+    "range" : "class21"
+  }, {
+    "id" : "property6",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class25",
+    "range" : "class20"
+  }, {
+    "id" : "property5",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class15",
+    "range" : "class20"
+  }, {
+    "id" : "property8",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class17",
+    "range" : "class21"
+  }, {
+    "id" : "property7",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class23",
+    "range" : "class21"
+  }, {
+    "id" : "property18",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class13",
+    "range" : "class3"
+  }, {
+    "id" : "property15",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class13",
+    "range" : "class18"
+  }, {
+    "id" : "property37",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class8",
+    "range" : "class10"
+  }, {
+    "id" : "property14",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class1",
+    "range" : "class18"
+  }, {
+    "id" : "property36",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class33",
+    "range" : "class10"
+  }, {
+    "id" : "property17",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class1",
+    "range" : "class3"
+  }, {
+    "id" : "property39",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class14",
+    "range" : "class10"
+  }, {
+    "id" : "property16",
+    "label" : {
+      "IRI-based" : "Disjoint With"
+    },
+    "domain" : "class3",
+    "range" : "class18"
+  }, {
+    "id" : "property38",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class26",
+    "range" : "class10"
+  }, {
+    "id" : "property11",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class31",
+    "range" : "class18"
+  }, {
+    "id" : "property10",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class6",
+    "range" : "class21"
+  }, {
+    "id" : "property13",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class3",
+    "range" : "class18"
+  }, {
+    "id" : "property35",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class16",
+    "range" : "class10"
+  }, {
+    "id" : "property12",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class32",
+    "range" : "class18"
+  }, {
+    "id" : "property31",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class20",
+    "range" : "class13"
+  }, {
+    "id" : "property30",
+    "label" : {
+      "IRI-based" : "Subclass Of"
+    },
+    "domain" : "class21",
+    "range" : "class13"
+  } ]
+}
